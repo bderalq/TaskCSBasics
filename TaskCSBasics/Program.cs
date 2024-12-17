@@ -27,6 +27,8 @@ double result = Convert.ToDouble(number);
 Console.WriteLine(number);
 Console.WriteLine(result);
 
+Console.WriteLine("--------------------------------");
+// char data type is used to store a single character, for example storing 'B'. 
 
 string studentName = "Bader Ali";
 double pointAverage = 93.4;
@@ -42,3 +44,14 @@ double height = 3.2;
 double Area = width*height;
 Console.WriteLine("area of the rectangle is : " + Area);
 
+// the difference between constants and variables is that constants do not have a change in value
+// depending on the function, while variables can have a change in their value dependuing on the function. 
+
+Console.WriteLine("what time is it");
+string Time = Console.ReadLine();
+
+int clock = (Convert.ToInt32(Time));
+if (clock >11 && clock <14)
+    {
+    Console.WriteLine("its time for lunch");
+    }
